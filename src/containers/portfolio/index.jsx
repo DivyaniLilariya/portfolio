@@ -30,14 +30,14 @@ const portfolioData = [
   },
   {
     id: 2,
-    name: "Todo App",
+    name: "My Todo App",
     image: ImageFour,
 
     link: "",
   },
   {
     id: 3,
-    name: "Shopping cart design",
+    name: "cart design",
     image: ImageFive,
     link: "",
   },
