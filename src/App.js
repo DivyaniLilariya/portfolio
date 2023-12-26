@@ -7,7 +7,6 @@ import Resume from './containers/resume';
 import Portfolio from './containers/portfolio';
 import Contact from './containers/contact';
 import Navbar from './components/navbar';
-import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import particles from './utils.js/particles';
 function App() {
@@ -18,9 +17,7 @@ function App() {
   const renderParticlesjsInHomePage = location.pathname === "/"
     return (
     <div className="App">
-    {renderParticlesjsInHomePage && (
-      <Particles id="particles" options={particles} init={handleInit} />
-    )}
+    {renderParticlesjsInHomePage }
     <Navbar />
     <div className='App__main-page-content'>
     <Routes>
