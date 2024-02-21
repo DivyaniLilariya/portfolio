@@ -22,6 +22,10 @@ const skillsData = [
         percentage: "80",
       },
       {
+        skillName: "TYPESCRIPT",
+        percentage: "80",
+      },
+      {
         skillName: "REACT",
         percentage: "80",
       },

@@ -30,7 +30,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-    "1.6 Years Experienced React Developer With Hands-on experience in identifying web-based user interaction along with designing & implementing highly Responsive user interface Components, by Developing React Concepts. Proficient in translating design and Wireframs in high-Quality Code via Javascript and ReactJS Workflows"
+    "2 Years Experienced React Developer With Hands-on experience in identifying web-based user interaction along with designing & implementing highly Responsive user interface Components, by Developing React Concepts. Proficient in translating design and Wireframs in high-Quality Code via Javascript and ReactJS Workflows"
 
 const About = () => {
     return (
