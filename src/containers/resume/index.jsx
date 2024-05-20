@@ -95,42 +95,7 @@ const Resume = () => {
             </VerticalTimeline>
         </div>
 
-        <div className="timeline__education">
-          <h3 className="timeline__education__header-text">Academic Project</h3>
-          <VerticalTimeline
-            layout={"1-column"}
-            lineColor="var(--yellow-theme-main-color)"
-          >
-          {data.academicprojet.map((item, i) => (
-              <VerticalTimelineElement
-                key={i}
-                className="timeline__experience__vertical-timeline-element"
-                contentStyle={{
-                  background: 'none',
-                  color : 'var(--yellow-theme-sub-text-color)',
-                  border : '1.5px solid var(--yellow-theme-main-color)'
-                }}
-                icon={<MdWork/>}
-                iconStyle={{
-                  background : '#181818',
-                  color : 'var(--yellow-theme-main-color)',
-
-                }}
-              >
-                <div className="vertical-timeline-element-title-wrapper">
-                  <h3>
-                    {item.title}
-                  </h3>
-                </div>
-                <p className="vertical-timeline-element-title-wrapper-description">
-                    {item.subTitle}
-                  </p>
-                <p className="vertical-timeline-element-title-wrapper-description">{item.description} </p>
-
-              </VerticalTimelineElement>
-            ))}
-            </VerticalTimeline>
-        </div>
+        
       </div>
     </section>
   );

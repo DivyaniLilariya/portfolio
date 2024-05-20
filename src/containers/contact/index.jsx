@@ -74,6 +74,9 @@ const Contact = () => {
               </div>
             </div>
             <button>Submit</button>
+            <a href="tel:+916264152306">
+              <button type="button">Call Me</button>
+            </a>
           </div>
         </Animate>
       </div>

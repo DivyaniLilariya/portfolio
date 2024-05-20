@@ -2,6 +2,7 @@ import React from 'react'
 import './style.scss'
 import { useNavigate } from 'react-router-dom'
 import { Animate } from 'react-simple-animate'
+import resume from '../home/DivyaniResumes.pdf'
 const Home = () => {
   const navigate = useNavigate()
 
@@ -30,7 +31,10 @@ const Home = () => {
        }
       }>
         <div className='home__contact-me'>
-          <button onClick={navigatecontactpage}>Hire Me</button>
+        <button onClick={navigatecontactpage}>Hire Me</button>
+        <a href={resume} download="Divyani_Resume.pdf">
+            <button>Download Resume</button>
+          </a>
         </div>
       </Animate>
     </section>

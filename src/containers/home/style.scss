@@ -25,6 +25,7 @@
         display: flex;
         justify-content: center;
         margin-top: 15px;
+        gap: 5rem;
         button{
             cursor: pointer;
             padding: 10px 70px;
@@ -34,6 +35,7 @@
             border: 1.5px solid var(--yellow-theme-main-color);
             border-radius: 4px;
             font-weight: 500;
+            
 
             &:hover{
                 background: var(--yellow-theme-main-color);
@@ -48,6 +50,14 @@
       font-size: 3rem;
       line-height: 5rem;
     }
+    .home__contact-me {
+        flex-direction: column;
+        gap: 2rem;
+        margin: 30px;
+        button {
+            width: 100%;  
+        }
+    }
 }
 @media only screen and (min-width:551px) and (max-width:768px){
     .home__text-wrapper h1{
@@ -60,6 +70,8 @@
         font-size: 6rem;
         line-height: 8rem;
       }
+      
+      
 }
 @keyframes typingEffectAnimation {
     from{
