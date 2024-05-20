@@ -18,15 +18,15 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Notes App",
-    link: "",
+    name: "Gym Website",
+    link: "https://gymwebsite-phi.vercel.app/",
     image: ImageTwo,
   },
   {
     id: 2,
-    name: "Supplier Design",
+    name: "Bubble Game",
     image: ImageThree,
-    link: "",
+    link: "bubble-game-theta.vercel.app",
   },
   {
     id: 2,

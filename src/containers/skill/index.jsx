@@ -43,6 +43,10 @@ const skillsData = [
         percentage: "80",
       },
       {
+        skillName: "NEXT JS",
+        percentage: "70",
+      },
+      {
         skillName: "BOOTSTRAP",
         percentage: "70",
       },

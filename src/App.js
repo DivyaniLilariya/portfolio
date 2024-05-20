@@ -8,7 +8,7 @@ import Portfolio from './containers/portfolio';
 import Contact from './containers/contact';
 import Navbar from './components/navbar';
 import { loadFull } from 'tsparticles';
-import particles from './utils.js/particles';
+// import particles from './utils.js/particles';
 function App() {
   const location = useLocation()
   const handleInit = async (main)=>{

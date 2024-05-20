@@ -29,7 +29,13 @@ export const data = {
         title: "CRM",
         subTitle: "using react and php and bootstrap",
         description:
-          "Bachelor of technology in computer science",
+          "Components- Dashboard, Customer List, Customer Details, Forms, Authentication. State Management -  Redux. Routing - React Router for navigation. API Integration - Axios for HTTP requests. UI/UX - Tailwind CSS for styling and responsiveness",
+      },
+      {
+        title: "LANDING PAGE",
+        subTitle: "using react and tailwind",
+        description:
+          "This project involves developing a responsive landing page using React and Tailwind CSS. The landing page includes Home, About, Contact, Services, and Blog sections. The goal is to create an engaging and user-friendly interface that is fully responsive on both desktop and mobile devices.s",
       },
     ],
     academicprojet:[
